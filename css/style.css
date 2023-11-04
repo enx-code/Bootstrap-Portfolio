@@ -13,6 +13,20 @@
     top: 180px;
     right: 8%;
 }
-div > h4 {
+/* div > h4 {
     display: inline;
+} */
+.Seo {
+    background-image: url("../images/search-engine-optimization.jpg");
+    background-size: cover;
+    height: 200px;
+}
+.nameOfProject {
+    background-color: bisque;
+    padding: 5px;
+    border-bottom: solid 3px greenyellow;
+    position: relative;
+    display: inline-block;
+    bottom: -10px;
+    opacity: 0.9;
 }
