@@ -28,8 +28,11 @@
         </li>
       </ul>
     </nav>
-    <div id="hero-bg">
-      <h4>Cool subtitle here!</h4>
+    <!-- jumbatron -->
+    <div class="jumbotron jumbotron-fluid" id="hero-bg">
+      <div class="container">
+        <h6 class="display-4">Create Mindset to Learn!</h6>
+      </div>
     </div>
     <div
       data-bs-spy="scroll"
@@ -39,14 +42,20 @@
       class="scrollspy-example bg-body-tertiary p-3 rounded-2 container"
       tabindex="0"
     >
+      <!-- card -->
       <div class="row">
         <h5 id="scrollspyHeading1" class="fs-2 col text-end">About Me</h5>
-        <p class="col-10 border-start border-dark border-4">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam
-          explicabo quae optio at consequatur soluta voluptatibus pariatur
-          repellendus debitis saepe fugit impedit voluptate et, assumenda nam
-          quasi in quis iure. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et saepe reprehenderit, corrupti iure fuga aperiam ipsum facere dolores amet ratione iusto facilis hic dolor iste! Error esse exercitationem vero nam!
-        </p>
+        <div class="card col-10 border-start border-dark border-4">
+          <div class="card-body">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam
+            explicabo quae optio at consequatur soluta voluptatibus pariatur
+            repellendus debitis saepe fugit impedit voluptate et, assumenda nam
+            quasi in quis iure. Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Et saepe reprehenderit, corrupti iure fuga aperiam
+            ipsum facere dolores amet ratione iusto facilis hic dolor iste!
+            Error esse exercitationem vero nam!
+          </div>
+        </div>
       </div>
       <!-- Work -->
       <div class="row">
@@ -60,47 +69,57 @@
               </div>
             </a>
           </div>
-          <!-- smaller 4 pictures -->
-          <div class="container">
-            <div class="row row-cols-2">
-              <div class="col codeWars-image">
-                <a
-                  href="https://www.codewars.com/users/enx-code"
-                >
-                  <div class="codeWars">
-                    <h4>CodeWars</h4>
-                    <span>Kata</span>
-                  </div>
-                </a>
+          <!-- cards -->
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body codeWars-image">
+                  <a href="#" class="btn btn-primary codeWars">
+                    <h4 class="card-title">CodeWars</h4>
+                    <p class="card-text">Kata</p>
+                  </a>
+                </div>
               </div>
-              <div class="col calculator-image">
-                <a href="_blank">
-                  <div class="calculator">
-                    <h4>Calculator</h4>
-                    <span>REACT JavaScript</span>
-                  </div>
-                </a>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body calculator-image">
+                  <a href="#" class="btn btn-primary calculator">
+                    <h4 class="card-title">Calculator</h4>
+                    <p class="card-text">React, JavaScript</p>
+                  </a>
+                </div>
               </div>
-              <div class="col puzzels-image">
-                <a href="_blank">
-                  <div class="puzzels">
-                    <h4>Pastel Puzzels</h4>
-                    <span>MERN stack</span>
-                  </div>
-                </a>
+            </div>
+          </div>
+          <!-- other row -->
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body puzzels-image">
+                  <a href="#" class="btn btn-primary puzzels">
+                    <h4 class="card-title">Portfolio</h4>
+                    <p class="card-text">HTML, CSS</p>
+                  </a>
+                </div>
               </div>
-              <div class="col run-image">
-                <a href="_blank">
-                  <div class="run">
-                    <h4>Run Buddy</h4>
-                    <span>HTML/CSS</span>
-                  </div>
-                </a>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body run-image">
+                  <a href="#" class="btn btn-primary run">
+                    <h4 class="card-title">Run Buddy</h4>
+                    <p class="card-text">
+                      HTML, CSS
+                    </p>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- contact me section -->
       <div class="row footer">
         <h5 id="scrollspyHeading3" class="fs-2 col-2 text-end">Contact Me</h5>
         <ul

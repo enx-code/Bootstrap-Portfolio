@@ -14,7 +14,7 @@
   height: 250px;
   margin-top: -20px;
 }
-#hero-bg > h4 {
+#hero-bg > div > h6 {
   background-color: bisque;
   padding: 5px;
   border-bottom: solid 3px var(--border-color);
@@ -70,7 +70,7 @@
   color: var(--letter-color);
 }
 .puzzels-image {
-  background-image: url(../images/02-portfolio-3.jpg);
+  background-image: url(../images/Screenshot\ 2023-11-06\ at\ 10.30.23.png);
   background-size: cover;
   height: var(--image-height);
 }
@@ -93,10 +93,17 @@
 .nav-pills a:hover {
   border: solid 3px var(--border-color) !important;
   transform: scale(1.02) !important;
+  box-shadow: 10px 10px 30px var(--border-color);
 }
 .nav-pills a:hover {
     color: var(--border-color);
 }
 .footer {
     margin-top: 20px;
+}
+.card {
+    margin-bottom: 20px !important;
+}
+.border-4 {
+    border-color: var(--letter-color) !important;
 }
