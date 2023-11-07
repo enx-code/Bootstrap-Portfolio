@@ -6,7 +6,7 @@
   padding: 0 20px;
 }
 .nav-pills a {
-    color: var(--border-color);
+  color: var(--border-color);
 }
 #hero-bg {
   background-image: url("../images/02-hero-bg.jpg");
@@ -43,16 +43,17 @@
   display: inline-block;
   bottom: -100px;
   opacity: 0.8;
+  color: var(--letter-color);
 }
 .codeWars-image {
   background-image: url(../images/codewars.png);
   background-size: cover;
-  height: var(--image-height)
+  height: var(--image-height);
 }
 .calculator-image {
   background-image: url(../images/02-portfolio-2.jpg);
   background-size: cover;
-  height: var(--image-height)
+  height: var(--image-height);
 }
 .codeWars,
 .calculator,
@@ -66,6 +67,7 @@
   bottom: -60px;
   opacity: 0.8;
   margin-left: -12px;
+  color: var(--letter-color);
 }
 .puzzels-image {
   background-image: url(../images/02-portfolio-3.jpg);
@@ -77,4 +79,24 @@
   background-size: cover;
   height: var(--image-height);
   color: var(--letter-color);
- }
+}
+.row ul li a {
+  color: var(--letter-color) !important;
+  border-bottom: solid 3px var(--letter-color);
+}
+.seo:hover,
+.codeWars-image:hover,
+.calculator-image:hover,
+.puzzels-image:hover,
+.run-image:hover,
+.row ul li a:hover,
+.nav-pills a:hover {
+  border: solid 3px var(--border-color) !important;
+  transform: scale(1.02) !important;
+}
+.nav-pills a:hover {
+    color: var(--border-color);
+}
+.footer {
+    margin-top: 20px;
+}
