@@ -107,3 +107,7 @@
 .border-4 {
     border-color: var(--letter-color) !important;
 }
+.btn:hover {
+    background-color: bisque;
+    color: var(--letter-color);
+}
